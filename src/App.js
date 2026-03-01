@@ -20,11 +20,31 @@ function App() {
     };
 
     const deleteTask = (id) => {
-        setTodoList(todoList.filter((task) => task.id !== id));
+
+        const newList = [];
+        for (let i = 0; i < todoList.length; i++) {
+            if (todoList[i].id !== id) {
+                newList.push(todoList[i])
+            }
+        }
+        setTodoList(newList)
+
+        // setTodoList(todoList.filter((task) => task.id !== id));
     }
 
     const completeTask = (id) => {
-        setTodoList(todoList.map((task) => task.id === id ? { ...task, isCompleted: !task.isCompleted } : task));
+
+        const newList = [];
+        for (let i = 0; i < todoList.length; i++) {
+            if (todoList[i].id === id) {
+                newList.push({...todoList[i], isCompleted: !todoList[i].isCompleted});
+            } else {
+                newList.push(todoList[i]);
+            }
+        }
+        setTodoList(newList)
+
+        // setTodoList(todoList.map((task) => task.id === id ? { ...task, isCompleted: !task.isCompleted } : task));
     }
 
   return (
