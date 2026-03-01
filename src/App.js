@@ -21,30 +21,35 @@ function App() {
 
     const deleteTask = (id) => {
 
-        const newList = [];
-        for (let i = 0; i < todoList.length; i++) {
-            if (todoList[i].id !== id) {
-                newList.push(todoList[i])
-            }
-        }
-        setTodoList(newList)
+        // const newList = []; новый лист
+        // for (let i = 0; i < todoList.length; i++) {
+        //     if (todoList[i].id !== id) {
+        //         newList.push(todoList[i])
+        //     }
+        // }
+        // setTodoList(newList)
 
-        // setTodoList(todoList.filter((task) => task.id !== id));
+        setTodoList(todoList.filter((task) => task.id !== id));
     }
 
     const completeTask = (id) => {
 
-        const newList = [];
-        for (let i = 0; i < todoList.length; i++) {
-            if (todoList[i].id === id) {
-                newList.push({...todoList[i], isCompleted: !todoList[i].isCompleted});
-            } else {
-                newList.push(todoList[i]);
-            }
-        }
-        setTodoList(newList)
+        setTodoList(todoList.map((task) =>
+            task.id === id ? { ...task, isCompleted: !task.isCompleted } : task
+        ));
 
-        // setTodoList(todoList.map((task) => task.id === id ? { ...task, isCompleted: !task.isCompleted } : task));
+
+        // const newList = [];
+        // for (let i = 0; i < todoList.length; i++) {
+        //     if (todoList[i].id === id) {
+        //         newList.push({...todoList[i], isCompleted: !todoList[i].isCompleted});
+        //     } else {
+        //         newList.push(todoList[i]);
+        //     }
+        // }
+        // setTodoList(newList)
+
+        setTodoList(todoList.map((task) => task.id === id ? { ...task, isCompleted: !task.isCompleted } : task));
     }
 
   return (
