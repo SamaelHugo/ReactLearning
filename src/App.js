@@ -34,9 +34,9 @@ function App() {
 
     const completeTask = (id) => {
 
-        setTodoList(todoList.map((task) =>
-            task.id === id ? { ...task, isCompleted: !task.isCompleted } : task
-        ));
+        // setTodoList(todoList.map((task) =>
+        //     task.id === id ? { ...task, isCompleted: !task.isCompleted } : task
+        // ));
 
 
         // const newList = [];
