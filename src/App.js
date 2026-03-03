@@ -1,25 +1,26 @@
 import './App.css';
-import {useEffect, useState} from "react";
+import {useState} from "react";
 import Axios from "axios"
 
 function App() {
 
-    const [catFact, setCatFact] = useState("")
+    const [excuse, setExcuse] = useState("")
 
-    const fetchCatFact= () => {
-        Axios.get("https://catfact.ninja/fact").then((res) => {
-            setCatFact(res.data.fact)
-        })
-    }
 
-    useEffect(() => {
-        fetchCatFact();
-    }, []);
+    const fetchExcuse = (reason) => {
+        Axios.get(`https://excuser.herokuapp.com/v1/excuse/${reason}`)
+            .then((res) => {
+                setExcuse(res.data[0].excuse)
+            }
+    )}
 
   return (
     <div className="App">
-        <button onClick={fetchCatFact} >Generate Cat Fact</button>
-        <p>{catFact}</p>
+        <h1>Generate an Excuse</h1>
+        <button onClick={() => {fetchExcuse("party")}}>Party</button>
+        <button onClick={() => {fetchExcuse("family")}}>Family</button>
+        <button onClick={() => {fetchExcuse("office")}}>Office</button>
+        <p>{excuse}</p>
     </div>
   );
 }
