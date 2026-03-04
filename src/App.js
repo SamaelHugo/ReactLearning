@@ -6,22 +6,29 @@ import {Contact} from "./pages/contact";
 import {Error} from "./pages/error";
 import {Navbar} from "./pages/navbar";
 import {Profile} from "./pages/profile";
+import {useState, createContext} from "react";
 
+
+export const AppContext = createContext()
 
 function App() {
 
+    const [username, setUsername] = useState("Kocelot")
+
   return (
     <div className="App">
-        <Router>
-            <Navbar />
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/menu" element={<Menu />} />
-                <Route path="/contact" element={<Contact />} />
-                <Route path="/profile/:username" element={<Profile />} />
-                <Route path="*" element={<Error />} />
-            </Routes>
-        </Router>
+        <AppContext.Provider value={{username, setUsername}}>
+            <Router>
+                <Navbar />
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/menu" element={<Menu />} />
+                    <Route path="/contact" element={<Contact />} />
+                    <Route path="/profile" element={<Profile />} />
+                    <Route path="*" element={<Error />} />
+                </Routes>
+            </Router>
+        </AppContext.Provider>
     </div>
   );
 }
