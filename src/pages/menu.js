@@ -1,3 +1,13 @@
+import {useNavigate} from "react-router-dom"
+
+
 export const Menu = () => {
-    return <h1>This is the MENU PAGE</h1>
+    let navigate = useNavigate()
+    return <div>
+        <h1>This is the MENU PAGE</h1>
+        <button
+            onClick={() => { navigate("/")}}
+        >
+            Return to HOME</button>
+    </div>
 }
