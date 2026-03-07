@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b69b601c-0190-478c-9b3a-ef877bda7503" name="Changes" comment="Создание уникального хука для калькулятора, практика">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-app-env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copilot.data.migration.agent.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copilot.data.migration.edit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/untitled.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/changeProfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/person.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/contact.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/menu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/navbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/profile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/text.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/useCount.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/useGetCat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/useToggle.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SamaelHugo&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/samaelhugo/reactlearning.git&quot;,
+    &quot;accountId&quot;: &quot;6ffe6a2c-b77e-4be8-a91f-4b7c48ebe9c7&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="3ACRb7zmNu37ilgedpkaWBxqYxb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/WebstormProjects/untitled/src/pages&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;C:/Users/user/AppData/Roaming/JetBrains/WebStorm2025.2/node/versions/22.19.0/node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\user\\WebstormProjects\\untitled\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\WebstormProjects\untitled\src\pages" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-WS-252.25557.126" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b69b601c-0190-478c-9b3a-ef877bda7503" name="Changes" comment="" />
+      <created>1772094635778</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1772094635778</updated>
+      <workItem from="1772094636588" duration="1637000" />
+      <workItem from="1772103675371" duration="2690000" />
+      <workItem from="1772113155710" duration="3807000" />
+      <workItem from="1772158327172" duration="1708000" />
+      <workItem from="1772207321058" duration="1579000" />
+      <workItem from="1772223832124" duration="1151000" />
+      <workItem from="1772279199415" duration="5094000" />
+      <workItem from="1772297947758" duration="1828000" />
+      <workItem from="1772299803755" duration="84000" />
+      <workItem from="1772299898339" duration="326000" />
+      <workItem from="1772300237481" duration="2015000" />
+      <workItem from="1772353602522" duration="2943000" />
+      <workItem from="1772471113960" duration="1259000" />
+      <workItem from="1772472390489" duration="2589000" />
+      <workItem from="1772478664949" duration="120000" />
+      <workItem from="1772540282578" duration="3870000" />
+      <workItem from="1772555361634" duration="1432000" />
+      <workItem from="1772583830634" duration="4405000" />
+      <workItem from="1772652791839" duration="7929000" />
+      <workItem from="1772734233237" duration="2484000" />
+      <workItem from="1772737037455" duration="56000" />
+      <workItem from="1772828708907" duration="3800000" />
+      <workItem from="1772877834383" duration="3621000" />
+    </task>
+    <task id="LOCAL-00001" summary="React, Todolist">
+      <option name="closed" value="true" />
+      <created>1772224851803</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1772224851803</updated>
+    </task>
+    <task id="LOCAL-00002" summary="проект по тудулисту">
+      <option name="closed" value="true" />
+      <created>1772296981746</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1772296981746</updated>
+    </task>
+    <task id="LOCAL-00003" summary="добавлять убирать комплитить">
+      <option name="closed" value="true" />
+      <created>1772298554810</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1772298554810</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Повторение мать учения #1">
+      <option name="closed" value="true" />
+      <created>1772301081674</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1772301081674</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Повторение мать учения #2">
+      <option name="closed" value="true" />
+      <created>1772360271150</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1772360271150</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Простота мать таланта #1">
+      <option name="closed" value="true" />
+      <created>1772361197707</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1772361197707</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Простота мать таланта #2">
+      <option name="closed" value="true" />
+      <created>1772362073784</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1772362073784</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Повторение мать учения #3">
+      <option name="closed" value="true" />
+      <created>1772471997053</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1772471997053</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Юз эффект и зачем он нужен и почему стрикт мод такой стрикт">
+      <option name="closed" value="true" />
+      <created>1772478712971</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1772478712971</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Гадаем возраст по имени. Использование апи, фетчинг">
+      <option name="closed" value="true" />
+      <created>1772546527819</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1772546527819</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Получаем факты о кошках через АПИ">
+      <option name="closed" value="true" />
+      <created>1772546785849</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1772546785849</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Практика мать таланта №3">
+      <option name="closed" value="true" />
+      <created>1772556714744</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1772556714744</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Узнал что такое корни и зачем и почему и вообще да">
+      <option name="closed" value="true" />
+      <created>1772588567423</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1772588567423</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Парамс и навигация в руте. Тоесть достать из юрл и переместить человека в другую страницу бещ кнопочек">
+      <option name="closed" value="true" />
+      <created>1772591666470</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1772591666470</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Узнал про контекст и минибазу данных как озу">
+      <option name="closed" value="true" />
+      <created>1772657835586</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1772657835586</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Кеширование и настройка запросов">
+      <option name="closed" value="true" />
+      <created>1772723231054</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1772723231054</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Узнал как создавать шикарные формы">
+      <option name="closed" value="true" />
+      <created>1772736545001</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1772736545001</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Создание уникального хука">
+      <option name="closed" value="true" />
+      <created>1772829905291</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1772829905291</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Создание уникального хука для гет запроса">
+      <option name="closed" value="true" />
+      <created>1772830872553</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1772830872553</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Создание уникального хука для калькулятора, практика">
+      <option name="closed" value="true" />
+      <created>1772831262689</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1772831262689</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="React, Todolist" />
+    <MESSAGE value="проект по тудулисту" />
+    <MESSAGE value="добавлять убирать комплитить" />
+    <MESSAGE value="Повторение мать учения #1" />
+    <MESSAGE value="Повторение мать учения #2" />
+    <MESSAGE value="Простота мать таланта #1" />
+    <MESSAGE value="Простота мать таланта #2" />
+    <MESSAGE value="Повторение мать учения #3" />
+    <MESSAGE value="Юз эффект и зачем он нужен и почему стрикт мод такой стрикт" />
+    <MESSAGE value="Гадаем возраст по имени. Использование апи, фетчинг" />
+    <MESSAGE value="Получаем факты о кошках через АПИ" />
+    <MESSAGE value="Практика мать таланта №3" />
+    <MESSAGE value="Узнал что такое корни и зачем и почему и вообще да" />
+    <MESSAGE value="Парамс и навигация в руте. Тоесть достать из юрл и переместить человека в другую страницу бещ кнопочек" />
+    <MESSAGE value="Узнал про контекст и минибазу данных как озу" />
+    <MESSAGE value="Кеширование и настройка запросов" />
+    <MESSAGE value="Узнал как создавать шикарные формы" />
+    <MESSAGE value="Создание уникального хука" />
+    <MESSAGE value="Создание уникального хука для гет запроса" />
+    <MESSAGE value="Создание уникального хука для калькулятора, практика" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создание уникального хука для калькулятора, практика" />
+  </component>
+</project>
