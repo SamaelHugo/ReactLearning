@@ -1,23 +1,29 @@
 import React from 'react';
 import './App.css';
-import {Person, Country} from "./person";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom"
+import {Home} from "./pages/home";
+import {Contact} from "./pages/contact";
+import {Login} from "./pages/login";
+import {Provider} from "react-redux";
+import {store} from "./store";
 
 function App() {
 
-    // const getAge = (name: string) : number => {
-    //     return 99
-    // } // Типизация в функции
 
   return (
     <div className="App">
-        <Person
-            name="Pedro"
-            email="wefwfe@gmail.com"
-            age={21}
-            isMarried={true}
-            friends={["jake", "lis"]}
-            country={Country.Brazil}
-        />
+        <Provider store={store}>
+            <Router>
+                <Link to={"/"} >Home</Link>
+                <Link to={"/login"} >Login</Link>
+                <Link to={"/contact"} >Contact</Link>
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/login" element={<Login />} />
+                    <Route path="/contact" element={<Contact />} />
+                </Routes>
+            </Router>
+        </Provider>
     </div>
   );
 }
